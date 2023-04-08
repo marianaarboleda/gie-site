@@ -1,0 +1,23 @@
+{
+    "research": [
+        {
+            "label": "Modern Tech-Stack",
+            "image": {
+              "src": "../../images/gatsby.png",
+              "alt": ""
+            }
+          },
+          {
+            "label": "Blazing Fast",
+            "image": {
+              "src": "../../images/high-voltage.png",
+              "alt": ""
+            }
+          }
+        ],
+        "button": {
+          "visible": true,
+          "label": "+ Load More",
+          "initiallyShownResearch": 5
+        }
+}

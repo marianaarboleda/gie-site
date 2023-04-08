@@ -9,26 +9,29 @@
     "avatar": "../content/images/gatsby.png",
     "bio": "This biography will be used in the footer area of an article and can contain some more details about the author.",
     "social": {
-      "behance": "https://behance.com",
-      "github": "https://github.com/konstantinmuenster",
-      "medium": "https://konstantinmuenster.medium.com",
-      "linkedin": "https://www.linkedin.com/in/konstantin-muenster/",
-      "mail": "mailto:mail@konstantin.digital"
+      "behance": "",
+      "github": "",
+      "medium": "",
+      "linkedin": "",
+      "mail": "mailto:cvieira@uninorte.edu.co",
+      "gruplac": "https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000008079"
     }
   },
   "siteConfiguration": {
-    "logo": { "text": "Portfolio" },
+    "logo": { "text": "Informática Educativa", 
+    "image": "../content/images/Logo_navbar.svg",
+  "imageDark":"../content/images/Logo_navbar_black.svg"},
     "navigation": {
       "header": [
-        { "label": "About", "url": "/#about" },
-        { "label": "Blog", "url": "/blog" },
-        { "label": "Features", "url": "/#features" },
+        { "label": "Acerca del grupo", "url": "/acerca-de" },
+        { "label": "Proyectos", "url": "/blog" },
+        { "label": "Publicaciones", "url": "/articulos" },
         { "label": "Github", "url": "/#github" }
       ],
       "ctaButton": {
         "openNewTab": true,
-        "label": "Resume",
-        "url": "/resume.pdf"
+        "label": "GrupLac",
+        "url": "https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000008079"
       },
       "footer": [
         { "label": "Privacy", "url": "/privacy" },
